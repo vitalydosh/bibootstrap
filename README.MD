@@ -1,21 +1,19 @@
 # DWH
-
-В репе собраны docker compose файлы для разворачивания DWH системы:
+This repository contains Docker Compose files for deploying a DWH (Data Warehouse) system:
 - grist
 - authentik
 - metabase
 - postgres
 - airflow
 
-### Статьи на хабре: 
-- [Интеграция Grist и Metabase](https://habr.com/ru/companies/agima/articles/803521/)
-- [Дашборд управления бизнесом (P&L) в Metabase за 5 дней](https://habr.com/ru/companies/agima/articles/803535/)
+### Articles on Habr (Russian IT platform):
+- [Integrating Grist and Metabase](https://habr.com/ru/companies/agima/articles/803521/)
+- [Building a Business Management Dashboard (P&L) in Metabase in 5 Days](https://habr.com/ru/companies/agima/articles/803535/)
 
-### Полезные ссылки:
-
-- Документация по настройке контейнеров airflow: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
-- Документация по настройке контейнеров grist: https://support.getgrist.com/self-managed/
-- Документация по настройке authentik для grist: https://support.getgrist.com/install/saml/
-- Документация psql-http: https://github.com/pramsey/pgsql-http
-- Документация по настройке контейнеров metabase: https://www.metabase.com/docs/latest/installation-and-operation/running-metabase-on-docker
-- Документация по настройке контейнеров authentik: https://docs.goauthentik.io/docs/installation/docker-compose
+### Useful links:
+- Airflow container configuration documentation: https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+- Grist container configuration documentation: https://support.getgrist.com/self-managed/
+- Authentik configuration documentation for Grist: https://support.getgrist.com/install/saml/
+- psql-http documentation: https://github.com/pramsey/pgsql-http
+- Metabase container configuration documentation: https://www.metabase.com/docs/latest/installation-and-operation/running-metabase-on-docker
+- Authentik container configuration documentation: https://docs.goauthentik.io/docs/installation/docker-compose 
